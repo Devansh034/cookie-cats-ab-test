@@ -3,7 +3,7 @@
 **Question:** The game *Cookie Cats* moved its first progress gate from level 30 to level 40. Did that change how many players come back after 1 day and after 7 days?
 
 ## Data
-- Dataset: [Mobile Games A/B Testing - Cookie Cats](https://www.kaggle.com/) (Kaggle)
+- Dataset: [Mobile Games A/B Testing - Cookie Cats](https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats) (Kaggle)
 - 90,189 players, randomly assigned to `gate_30` (control, 44,700 players) or `gate_40` (test, 45,489 players).
 - Columns: `userid`, `version`, `sum_gamerounds` (rounds played in the first 14 days), `retention_1` and `retention_7` (came back on day 1 and day 7).
 - Checks: no duplicate players, no missing values, groups of similar size.
